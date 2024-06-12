@@ -14,6 +14,7 @@ svc = joblib.load('models/model_trained.joblib')
 
 # load dataset===================================
 description = pd.read_csv("Dataset/description.csv")
+doctorSpecialist = pd.read_csv("Dataset/Doctor_Specialist.csv")
 medications = pd.read_csv("Dataset/medications.csv")
 workout = pd.read_csv("Dataset/workout_df.csv")
 precautions = pd.read_csv("Dataset/precautions_df.csv")
@@ -112,7 +113,10 @@ def predict_disease():
     user_symptoms = [sym.strip("[]' ") for sym in splited_symptoms]
     try:
         Predicted_disease = get_prediction_value(user_symptoms)
+        DocSpecialist = doctorSpecialist[doctorSpecialist['Disease'] == Predicted_disease]['Specialist']
+
         Description_result, Precaution_result, Medication_result, Diet_result, Workout_result = helper(Predicted_disease)
+        Predicted_disease = f"{Predicted_disease}, It is preferable to visit a(n) ({DocSpecialist.iloc[0]}) Doctor"
 
 
         return jsonify({
