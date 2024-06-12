@@ -1,0 +1,42 @@
+Disease,Specialist
+Fungal infection,"Dermatologist, Infectious Disease Specialist or Otolaryngologist"
+Allergy,Allergist/Immunologist
+GERD,Gastroenterologist
+Chronic cholestasis,Hepatologist or Gastroenterologist
+Drug Reaction,Allergist/Immunologist or Dermatologist
+Peptic ulcer disease,Gastroenterologist
+AIDS,Infectious Disease
+Diabetes,Endocrinologist
+Gastroenteritis,Gastroenterologist
+Bronchial Asthma,Pulmonologist or Allergist
+Hypertension,"Cardiologist, Internist or Nephrologist"
+Migraine,Neurologist
+Cervical spondylosis,"Orthopedic Surgeon, Neurologist, or Physiatrist"
+Paralysis (brain hemorrhage),Neurologist
+Jaundice,Hepatologist or Gastroenterologist
+Malaria,Infectious Disease or Internist
+Chicken pox,Dermatologist or Pediatrician
+Dengue,Infectious Disease or Internist
+Typhoid,Infectious Disease or Internist
+hepatitis A,"Gastroenterologist, Hepatologist or Infectious Disease"
+Hepatitis B,"Gastroenterologist, Hepatologist or Infectious Disease"
+Hepatitis C,"Gastroenterologist, Hepatologist or Infectious Disease"
+Hepatitis D,"Gastroenterologist, Hepatologist or Infectious Disease"
+Hepatitis E,"Gastroenterologist, Hepatologist or Infectious Disease"
+Alcoholic hepatitis,Gastroenterologist or Hepatologist
+Tuberculosis,Pulmonologist or Infectious Disease
+Common Cold,"Otolaryngologist (ENT), Internist or Pediatrician (for children)"
+Pneumonia,Pulmonologist or Infectious Disease
+Dimorphic hemmorhoids(piles),"Gastroenterologist, Colorectal Surgeon or General Surgeon"
+Heart attack,Cardiologist
+Varicose veins,"Vascular Surgeon, Cardiologist or Phlebologist"
+Hypothyroidism,Endocrinologist
+Hyperthyroidism,Endocrinologist
+Hypoglycemia,Endocrinologist or Diabetologist
+Osteoarthristis,Rheumatologist or Orthopedic Surgeon
+Arthritis,Rheumatologist
+(vertigo) Paroymsal Positional Vertigo,Neurologist or Otolaryngologist
+Acne,Dermatologist
+Urinary tract infection,Urologist or Primary Care Physician
+Psoriasis,Dermatologist
+Impetigo,Dermatologist or Primary Care Physician
